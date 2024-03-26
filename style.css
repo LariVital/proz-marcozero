@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+
+}
+main{
+    padding: 40px;
+}
+nav{
+    background-image: url(Design-sem-nome.png);
+    padding: 200px;
+}
+.title{
+    justify-content: center;
+    display: flex;
+    background-color: lightblue;
+    padding: 30px;
+    font-family: "Playfair",sans-serif;
+    font-size: 20px;
+}
+.container{
+    text-align: justify;
+    margin: 10px 0 0 10px;
+}
+.container-content{
+   
+    
+    gap:20px;
+    background-color: #f3f3f3;
+
+  
+}
+.container-content h2{
+    margin: 20px;
+
+}
+.container-content p{
+    padding: 5px;
+    font-size: 18px;
+    font-family: "inter",sans sans-serif;
+   
+    
+}
+.container-content ol li{
+    margin: 20px;
+    font-weight: 700;
+    font-family: "inter", sans-serif;
+}
+footer p{
+    position: relative; 
+            bottom: 0; 
+            left: 0;
+            width: 100%; 
+            background-color:; 
+            color: black; 
+            text-align: center; 
+            padding: 20px 0;
+}
+.button{
+    background-color: lightskyblue;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 20px;
+}
+button:hover{
+    transition: 3s;
+    color:white;
+    text-decoration: underline;
+    border:solid;
+}
