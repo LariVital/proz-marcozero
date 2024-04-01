@@ -24,15 +24,14 @@ nav{
     margin: 10px 0 0 10px;
 }
 .container-content{
-   
     
-    gap:20px;
     background-color: #f3f3f3;
 
   
 }
 .container-content h2{
-    margin: 20px;
+    margin: 2rem;
+    padding:10px;
 
 }
 .container-content p{
@@ -69,4 +68,14 @@ button:hover{
     color:white;
     text-decoration: underline;
     border:solid;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin: 3rem;
+
+}
+.image figcaption{
+    text-align: center;
 }
